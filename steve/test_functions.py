@@ -4,8 +4,9 @@ import pytest
 import os
 import subprocess
 from unittest.mock import patch
+from steve.sitemaps_handler import discover_pages_sitemaps
 from steve.sitemap_db_handler import create_json
-from sitemaps_handler import discover_pages_sitemaps
+
 
 # Mock function to simulate create_json
 def mock_create_json(website_url, pages):
@@ -23,19 +24,16 @@ def mock_discover_pages_sitemaps(website_url):
     }
 
 def test_main(monkeypatch):
-    # Mock the functions in utils and sitemaps_handler
-    monkeypatch.setattr('utils.create_json', mock_create_json)
-    monkeypatch.setattr('sitemaps_handler.discover_pages_sitemaps', mock_discover_pages_sitemaps)
+    # Mock the functions in sitemap_db_handler and sitemaps_handler
+    monkeypatch.setattr('steve.sitemap_db_handler.create_json', mock_create_json)
+    monkeypatch.setattr('steve.sitemaps_handler.discover_pages_sitemaps', mock_discover_pages_sitemaps)
     
     # Set the WEBSITE_URL environment variable
     env = os.environ.copy()
     env['WEBSITE_URL'] = 'https://mysitefaster.com'
     
-    # Ensure the path to main.py is correct
-    script_path = os.path.join(os.path.dirname(__file__), 'main.py')
-    
-    # Run the script from the correct working directory
-    result = subprocess.run(['python3', script_path],
+    # Run the script using the -m switch to handle the package correctly
+    result = subprocess.run(['python3', '-m', 'steve.main'],
                             capture_output=True, text=True, cwd=os.path.dirname(__file__), env=env)
     
     # Expected JSON file path
@@ -44,9 +42,3 @@ def test_main(monkeypatch):
     # Check the output
     assert f"JSON file created and populated: {expected_filepath}" in result.stdout
     assert result.returncode == 0
-    
-    # Clean up the created files and directory after the test
-    if os.path.exists(expected_filepath):
-        os.remove(expected_filepath)
-    if os.path.exists('website') and not os.listdir('website'):
-        os.rmdir('website')
