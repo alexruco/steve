@@ -27,13 +27,17 @@ def test_main(monkeypatch):
     monkeypatch.setattr('utils.create_json', mock_create_json)
     monkeypatch.setattr('sitemaps_handler.discover_pages_sitemaps', mock_discover_pages_sitemaps)
     
+    # Set the WEBSITE_URL environment variable
+    env = os.environ.copy()
+    env['WEBSITE_URL'] = 'https://mysitefaster.com'
+    
     # Ensure the path to main.py is correct
     script_path = os.path.join(os.path.dirname(__file__), 'main.py')
-
+    
     # Run the script from the correct working directory
-    result = subprocess.run(['python3', script_path, 'https://mysitefaster.com'],
-                            capture_output=True, text=True, cwd=os.path.dirname(__file__))
-
+    result = subprocess.run(['python3', script_path],
+                            capture_output=True, text=True, cwd=os.path.dirname(__file__), env=env)
+    
     # Expected JSON file path
     expected_filepath = os.path.join('website', 'mysitefaster_com.json')
     
