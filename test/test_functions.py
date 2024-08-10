@@ -28,13 +28,9 @@ def test_main(monkeypatch):
     monkeypatch.setattr('steve.sitemap_db_handler.create_json', mock_create_json)
     monkeypatch.setattr('steve.sitemaps_handler.discover_pages_sitemaps', mock_discover_pages_sitemaps)
     
-    # Set the WEBSITE_URL environment variable
-    env = os.environ.copy()
-    env['WEBSITE_URL'] = 'https://mysitefaster.com'
-    
     # Run the script using the -m switch to handle the package correctly
-    result = subprocess.run(['python3', '-m', 'steve.main'],
-                            capture_output=True, text=True, cwd=os.path.dirname(__file__), env=env)
+    result = subprocess.run(['python3', '-m', 'steve.main', 'https://mysitefaster.com'],
+                            capture_output=True, text=True, cwd=os.path.dirname(__file__))
     
     # Expected JSON file path
     expected_filepath = os.path.join('website', 'mysitefaster_com.json')

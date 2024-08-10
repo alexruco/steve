@@ -1,0 +1,698 @@
+{
+    "https://mysitefaster.com/post-sitemap.xml": {
+        "sitemaps": [
+            "https://mysitefaster.com/sitemap_index.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190955+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/page-sitemap.xml": {
+        "sitemaps": [
+            "https://mysitefaster.com/sitemap_index.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190963+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/product-sitemap.xml": {
+        "sitemaps": [
+            "https://mysitefaster.com/sitemap_index.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190967+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/foo/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190970+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/os-5-principais-motivos-para-seu-site-estar-lento/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190975+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/jardim-gomes/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190979+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/osiris-servicos-terceirizados/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190984+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/por-que-devo-me-preocupar-com-a-seguranca-do-meu-site/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190987+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/nova-tecnica-para-esconder-maleware-em-resultados-de-pesquisa-e-anuncios/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.190999+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/top-5-reasons-your-website-is-slow/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191002+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/security-headers/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191006+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/site-lento-como-tornar-meu-site-mais-rapido/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191009+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/sensify/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191012+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/falcaoereis/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191015+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/5-dicas-para-manter-seu-site-seguro/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191018+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/website-running-slow-5-reasons-to-have-a-faster-more-effective-and-optimized-website/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191021+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/kan-talks/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191029+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/malware-no-meu-site-e-agora/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191036+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/catia-antunes/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191045+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/sergio-agria-dos-santos/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191048+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/seguranca-dos-cabecalhos/": {
+        "sitemaps": [
+            "https://mysitefaster.com/post-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191056+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/product/super-combo-seo-and-vulnerability-analysis/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191059+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/product/super-combo-analise-de-seo-diagnostico-de-vulnerabilidades/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191063+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/product/seo-checkup-pt/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191068+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/product/seo-checkup/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191071+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/product/vulnerability-analysis/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191075+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/product/whatsappbot/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191079+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/product/whatsapp-bot/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191083+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/product/diagnostico-de-vulnerabilidades/": {
+        "sitemaps": [
+            "https://mysitefaster.com/product-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191086+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191090+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/ferramentas/gerador-de-palavra-passe/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191097+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/ferramentas/dimensoes-do-ecra/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191100+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/ferramentas/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191103+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/ferramentas/qual-e-o-meu-ip/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191106+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/tools/what-is-my-ip/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191112+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/tools/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191119+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/tools/screen-size/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191122+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/tools/pass-generator/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191125+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/seu-site-em-48horas/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191129+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/get-started/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191142+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/comece-agora/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191145+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/testemonial/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191148+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/depoimento/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191151+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191155+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/produtos/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191158+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/my-blog/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191161+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/projetos/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191165+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/my-account/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191170+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/precos/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191174+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pricing/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191178+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/simulacao-de-valores-site/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191181+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/manutencao-do-site-wordpress/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191203+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/website-maintenance/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191206+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/blog/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191211+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/politica-privacidade/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191214+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/privacy-policy/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191231+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/portfolio/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191235+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    },
+    "https://mysitefaster.com/pt/quero-meu-site-rapido/": {
+        "sitemaps": [
+            "https://mysitefaster.com/page-sitemap.xml"
+        ],
+        "discovered": "2024-08-10T18:42:51.191239+00:00",
+        "referring_pages": [],
+        "crawled": "",
+        "crawl_allowed": null,
+        "indexing_allowed": null,
+        "user_declared_canonical": "",
+        "status_code": null
+    }
+}
