@@ -1,4 +1,4 @@
-# #steve/utils.py
+# #steve/sitemap_json_handler.py
 
 import os
 import json
@@ -15,8 +15,16 @@ def create_json(website_url, pages):
     if not os.path.exists('website'):
         os.makedirs('website')
     
-    # Prepare the data in the desired format
-    data = {}
+    filepath = os.path.join('website', filename)
+    
+    # Load existing data if the JSON file exists
+    if os.path.exists(filepath):
+        with open(filepath, 'r') as json_file:
+            data = json.load(json_file)
+    else:
+        data = {}
+
+    # Update the JSON data with discovered pages
     for page, sitemap in pages:
         if page not in data:
             data[page] = {
@@ -26,10 +34,10 @@ def create_json(website_url, pages):
                 "crawled": ""  # Initial empty string for crawled status
             }
         else:
-            data[page]["sitemaps"].append(sitemap)
+            if sitemap not in data[page]["sitemaps"]:
+                data[page]["sitemaps"].append(sitemap)
     
-    # Create or update the JSON file within the 'website' directory
-    filepath = os.path.join('website', filename)
+    # Write the updated data back to the JSON file
     with open(filepath, 'w') as json_file:
         json.dump(data, json_file, indent=4)
     

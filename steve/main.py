@@ -1,7 +1,7 @@
 # #steve/main.py
 
 import sys
-from utils import create_json
+from steve.sitemap_db_handler import create_json
 from sitemaps_handler import discover_pages_sitemaps
 
 def main():

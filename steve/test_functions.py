@@ -4,7 +4,7 @@ import pytest
 import os
 import subprocess
 from unittest.mock import patch
-from utils import create_json
+from steve.sitemap_db_handler import create_json
 from sitemaps_handler import discover_pages_sitemaps
 
 # Mock function to simulate create_json
