@@ -15,12 +15,16 @@ def create_json(website_url, pages):
     if not os.path.exists('website'):
         os.makedirs('website')
     
-    # Prepare the data to be written to the JSON file
-    data = {
-        "page": pages,
-        "sitemaps": list(set([sitemap for _, sitemap in pages])),
-        "discovered": datetime.now(timezone.utc).isoformat()
-    }
+    # Prepare the data in the desired format
+    data = {}
+    for page, sitemap in pages:
+        if page not in data:
+            data[page] = {
+                "sitemaps": [sitemap],
+                "discovered": datetime.now(timezone.utc).isoformat()
+            }
+        else:
+            data[page]["sitemaps"].append(sitemap)
     
     # Create or update the JSON file within the 'website' directory
     filepath = os.path.join('website', filename)
