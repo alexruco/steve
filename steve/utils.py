@@ -21,7 +21,9 @@ def create_json(website_url, pages):
         if page not in data:
             data[page] = {
                 "sitemaps": [sitemap],
-                "discovered": datetime.now(timezone.utc).isoformat()
+                "discovered": datetime.now(timezone.utc).isoformat(),
+                "referring_pages": [],  # Initial empty list for referring pages
+                "crawled": ""  # Initial empty string for crawled status
             }
         else:
             data[page]["sitemaps"].append(sitemap)
