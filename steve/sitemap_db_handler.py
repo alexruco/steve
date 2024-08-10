@@ -31,7 +31,11 @@ def create_json(website_url, pages):
                 "sitemaps": [sitemap],
                 "discovered": datetime.now(timezone.utc).isoformat(),
                 "referring_pages": [],  # Initial empty list for referring pages
-                "crawled": ""  # Initial empty string for crawled status
+                "crawled": "",  # Initial empty string for crawled status
+                "crawl_allowed": None,  # Placeholder value
+                "indexing_allowed": None,  # Placeholder value
+                "user_declared_canonical": "",  # Placeholder value
+                "status_code": None  # Placeholder value
             }
         else:
             if sitemap not in data[page]["sitemaps"]:
