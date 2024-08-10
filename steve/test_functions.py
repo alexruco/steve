@@ -1,35 +1,47 @@
-# #steve/test_functions.py
+# #steve/test_main.py
 
 import pytest
 import os
-from datetime import datetime, timezone
+import subprocess
+from unittest.mock import patch
 from utils import create_json
 from sitemaps_handler import discover_pages_sitemaps
 
-# Mock function to simulate pages_from_sitemaps
-def mock_pages_from_sitemaps(website_url):
-    return [
-        ('https://mysitefaster.com/page1/', 'https://mysitefaster.com/sitemap1.xml'),
-        ('https://mysitefaster.com/page2/', 'https://mysitefaster.com/sitemap2.xml')
-    ]
+# Mock function to simulate create_json
+def mock_create_json(website_url, pages):
+    return os.path.join('website', f"{website_url.split('//')[-1].replace('.', '_')}.json")
 
-def test_discover_pages_sitemaps(monkeypatch):
-    website_url = "https://mysitefaster.com"
-    
-    # Use monkeypatch to replace pages_from_sitemaps with the mock function
-    monkeypatch.setattr('sitemaps_handler.pages_from_sitemaps', mock_pages_from_sitemaps)
-    
-    # Call the discover_pages_sitemaps function
-    result = discover_pages_sitemaps(website_url)
-    
-    # Expected structure
-    expected_result = {
-        "page": mock_pages_from_sitemaps(website_url),
-        "sitemaps": sorted(['https://mysitefaster.com/sitemap1.xml', 'https://mysitefaster.com/sitemap2.xml']),
-        "discovered": result["discovered"]  # This should match the current time
+# Mock function to simulate discover_pages_sitemaps
+def mock_discover_pages_sitemaps(website_url):
+    return {
+        "page": [
+            ('https://mysitefaster.com/page1/', 'https://mysitefaster.com/sitemap1.xml'),
+            ('https://mysitefaster.com/page2/', 'https://mysitefaster.com/sitemap2.xml')
+        ],
+        "sitemaps": ['https://mysitefaster.com/sitemap1.xml', 'https://mysitefaster.com/sitemap2.xml'],
+        "discovered": "2024-08-10T12:41:45.637740+00:00"
     }
+
+def test_main(monkeypatch):
+    # Mock the functions in utils and sitemaps_handler
+    monkeypatch.setattr('utils.create_json', mock_create_json)
+    monkeypatch.setattr('sitemaps_handler.discover_pages_sitemaps', mock_discover_pages_sitemaps)
     
-    # Check if the result matches the expected structure
-    assert result["page"] == expected_result["page"]
-    assert sorted(result["sitemaps"]) == expected_result["sitemaps"]
-    assert datetime.strptime(result["discovered"], "%Y-%m-%dT%H:%M:%S.%f%z")
+    # Define the command to run the main.py script
+    command = ['python3', 'steve/main.py', 'https://mysitefaster.com']
+
+    # Run the script and capture the output
+    result = subprocess.run(command, capture_output=True, text=True)
+
+    # Expected JSON file path
+    expected_filepath = os.path.join('website', 'mysitefaster_com.json')
+    
+    # Check the output
+    assert f"JSON file created and populated: {expected_filepath}" in result.stdout
+    assert result.returncode == 0
+    
+    # Clean up the created files and directory after the test
+    if os.path.exists(expected_filepath):
+        os.remove(expected_filepath)
+    if os.path.exists('website') and not os.listdir('website'):
+        os.rmdir('website')
