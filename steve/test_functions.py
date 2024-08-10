@@ -2,24 +2,34 @@
 
 import pytest
 import os
+from datetime import datetime, timezone
 from utils import create_json
+from sitemaps_handler import discover_pages_sitemaps
 
-def test_create_json():
+# Mock function to simulate pages_from_sitemaps
+def mock_pages_from_sitemaps(website_url):
+    return [
+        ('https://mysitefaster.com/page1/', 'https://mysitefaster.com/sitemap1.xml'),
+        ('https://mysitefaster.com/page2/', 'https://mysitefaster.com/sitemap2.xml')
+    ]
+
+def test_discover_pages_sitemaps(monkeypatch):
     website_url = "https://mysitefaster.com"
-    expected_filename = "mysitefaster_com.json"
-    expected_filepath = os.path.join('website', expected_filename)
     
-    # Call the function
-    filepath = create_json(website_url)
+    # Use monkeypatch to replace pages_from_sitemaps with the mock function
+    monkeypatch.setattr('sitemaps_handler.pages_from_sitemaps', mock_pages_from_sitemaps)
     
-    # Check if the returned filepath is correct
-    assert filepath == expected_filepath
+    # Call the discover_pages_sitemaps function
+    result = discover_pages_sitemaps(website_url)
     
-    # Check if the file was created
-    assert os.path.exists(filepath)
+    # Expected structure
+    expected_result = {
+        "page": mock_pages_from_sitemaps(website_url),
+        "sitemaps": sorted(['https://mysitefaster.com/sitemap1.xml', 'https://mysitefaster.com/sitemap2.xml']),
+        "discovered": result["discovered"]  # This should match the current time
+    }
     
-    # Clean up the created files and directory after the test
-    if os.path.exists(filepath):
-        os.remove(filepath)
-    if os.path.exists('website') and not os.listdir('website'):
-        os.rmdir('website')
+    # Check if the result matches the expected structure
+    assert result["page"] == expected_result["page"]
+    assert sorted(result["sitemaps"]) == expected_result["sitemaps"]
+    assert datetime.strptime(result["discovered"], "%Y-%m-%dT%H:%M:%S.%f%z")
